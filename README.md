@@ -9,5 +9,5 @@ Scala.js projects are untouched. To wire the project you simply call
     .dependsOnJs(scalaJsProjectA -> "jsfileA.js",
                  scalaJsProjectB -> "jsfileB.js")              
 
-on the play project. the `dependsOnJs` function comes through an implicit class in
-the ScalaJSPlay plugin (at `project/ScalaJSPlay.scala`)
+on the play project. The `dependsOnJs` function is introduced by an implicit class in
+the ScalaJSPlay "plugin" (at `project/ScalaJSPlay.scala`)
